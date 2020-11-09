@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button type="button" id="btn1">Click Me</button>
+    <div id="messageDiv">test</div>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <p id="textDemo"></p>
+    <script>
+        function showMessage() {
+            getEle("textDemo").innerHTML = " changed";
+        }
+    </script>
+    <button type="button" onclick="showMessage();">Click Me!</button>
+    <script>
+     function showMessage(){
+         console.log('Xin chào!');
+     }
+    </script>
+    <script src="javascriptdemo.js"></script>
+</body>
+
+</html>
